@@ -5,7 +5,7 @@ from prettytable import PrettyTable
 import pandas as pd
 
 # Assign the value of file_path globally
-file_path = '/Users/a13402096/PyCharmMiscProject/Prod_Wall_Bal.xls'
+file_path = 'Prod_Wall_Bal.xls'
 
 # Read user IDs and base URLs from Excel
 def load_data_from_excel(file_path):
