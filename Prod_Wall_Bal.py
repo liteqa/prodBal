@@ -2,10 +2,11 @@ import requests
 import json
 import urllib3
 from prettytable import PrettyTable
-import pandas as pd
+import pandas
 
 # Assign the value of file_path globally
 file_path = 'Prod_Wall_Bal.xls'
+pd = pandas
 
 # Read user IDs and base URLs from Excel
 def load_data_from_excel(file_path):
